@@ -8,7 +8,7 @@ namespace Bank.Domain.Helpers
 {
     public static class DataTableHelper
     {
-        public static T ToObject<T>(this DataRow dataRow) where T : new()
+        public static T DataRowToObject<T>(this DataRow dataRow) where T : new()
         {
             T item = new T();
 
@@ -39,7 +39,7 @@ namespace Bank.Domain.Helpers
                  .FirstOrDefault();
         }
 
-        public static object ChangeType(object value, Type type)
+        private static object ChangeType(object value, Type type)
         {
             if (type.IsGenericType && type.GetGenericTypeDefinition().Equals(typeof(Nullable<>)))
             {

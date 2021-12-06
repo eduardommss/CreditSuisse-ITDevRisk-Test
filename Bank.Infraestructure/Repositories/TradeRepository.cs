@@ -58,7 +58,7 @@ namespace Bank.Infraestructure.Repositories
             if (row is null)
                 throw new Exception("Trade is not found");
 
-            return row[0].ToObject<Trade>();
+            return row[0].DataRowToObject<Trade>();
         }
 
         public void Update(Trade entity)
@@ -79,7 +79,7 @@ namespace Bank.Infraestructure.Repositories
 
             foreach (var row in rows)
             {
-                yield return row.ToObject<Trade>();
+                yield return row.DataRowToObject<Trade>();
             }
         }
     }

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Domain", "Bank.Domain\Bank.Domain.csproj", "{2287D5B8-9DCE-4EAF-BF0C-7AD504E7039A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Domain", "Bank.Domain\Bank.Domain.csproj", "{2287D5B8-9DCE-4EAF-BF0C-7AD504E7039A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Infraestructure", "Bank.Infraestructure\Bank.Infraestructure.csproj", "{B230005B-DF10-40D1-BEFD-859EA7D33CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Infraestructure", "Bank.Infraestructure\Bank.Infraestructure.csproj", "{B230005B-DF10-40D1-BEFD-859EA7D33CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.IoC", "Bank.IoC\Bank.IoC.csproj", "{D2FBBE7A-654F-4EEE-8261-605BC2F6DB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.IoC", "Bank.IoC\Bank.IoC.csproj", "{D2FBBE7A-654F-4EEE-8261-605BC2F6DB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.UI.ConsoleApp", "Bank.UI.ConsoleApp\Bank.UI.ConsoleApp.csproj", "{18BC8039-F7A5-4B7D-974B-6F06D40A1FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.UI.ConsoleApp", "Bank.UI.ConsoleApp\Bank.UI.ConsoleApp.csproj", "{18BC8039-F7A5-4B7D-974B-6F06D40A1FAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
